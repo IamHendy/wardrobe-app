@@ -36,7 +36,7 @@ Follow these steps to set up the project locally:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/wardrobe-management-system.git
+   git clone https://github.com/IamHendy/wardrobe-app
    cd wardrobe-management-system
 
 2. **Install Backend Dependencies**

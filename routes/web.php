@@ -15,8 +15,8 @@ Route::middleware('auth')->group(function () {
     // Clothes routes (protected by auth middleware)
     Route::get('/clothes', [ClothesController::class, 'index'])->name('clothes.index');
     Route::post('/clothes', [ClothesController::class, 'store'])->name('clothes.store');
-    Route::put('/clothes/{id}', [ClothesController::class, 'update'])->name('clothes.update');
-    Route::delete('/clothes/{id}', [ClothesController::class, 'destroy'])->name('clothes.destroy');
+    Route::put('/clothes/{cloth}', [ClothesController::class, 'update'])->name('clothes.update');
+    Route::delete('/clothes/{cloth}', [ClothesController::class, 'destroy'])->name('clothes.destroy');
 });
 
 // Guest-only routes (Only accessible if not logged in)
